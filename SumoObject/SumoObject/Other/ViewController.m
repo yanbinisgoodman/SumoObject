@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"123");
-    self.view.backgroundColor = KUIColorFontMain;
+    self.view.backgroundColor = KUI_YB_ColorFontMain;
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
