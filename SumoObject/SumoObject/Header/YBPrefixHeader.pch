@@ -10,6 +10,5 @@
 #define YBPrefixHeader_pch
 
 #import "YBHeader.h"
-#import "Static Const .h"
 
 #endif /* YBPrefixHeader_pch */
