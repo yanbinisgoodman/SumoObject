@@ -13,6 +13,7 @@
 		2C8358A31FC8A0170042D43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8358A21FC8A0170042D43C /* Assets.xcassets */; };
 		2C8358A61FC8A0170042D43C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8358A41FC8A0170042D43C /* LaunchScreen.storyboard */; };
 		2C8358A91FC8A0170042D43C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358A81FC8A0170042D43C /* main.m */; };
+		2C8358B61FC8BABD0042D43C /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 2C8358B51FC8BABD0042D43C /* Readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2C8358A81FC8A0170042D43C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C8358B11FC8A3240042D43C /* YBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPrefixHeader.pch; sourceTree = "<group>"; };
 		2C8358B21FC8A3420042D43C /* YBHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBHeader.h; sourceTree = "<group>"; };
+		2C8358B51FC8BABD0042D43C /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				2C8358A41FC8A0170042D43C /* LaunchScreen.storyboard */,
 				2C8358A71FC8A0170042D43C /* Info.plist */,
 				2C8358A81FC8A0170042D43C /* main.m */,
+				2C8358B51FC8BABD0042D43C /* Readme */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8358B61FC8BABD0042D43C /* Readme in Resources */,
 				2C8358A61FC8A0170042D43C /* LaunchScreen.storyboard in Resources */,
 				2C8358A31FC8A0170042D43C /* Assets.xcassets in Resources */,
 				2C8358A11FC8A0170042D43C /* Main.storyboard in Resources */,

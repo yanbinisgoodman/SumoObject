@@ -1,0 +1,4 @@
+
+git 无法提交时输入:
+xcrun git config --global user.email 476018863@qq.com
+xcrun git config --global user.name yanbinisgoodman
