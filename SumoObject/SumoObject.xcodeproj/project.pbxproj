@@ -14,6 +14,7 @@
 		2C8358A61FC8A0170042D43C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8358A41FC8A0170042D43C /* LaunchScreen.storyboard */; };
 		2C8358A91FC8A0170042D43C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358A81FC8A0170042D43C /* main.m */; };
 		2C8358B61FC8BABD0042D43C /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 2C8358B51FC8BABD0042D43C /* Readme */; };
+		F2F7E839309018185D43EB99 /* libPods-SumoObject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B9B8611415E470E50A9F25 /* libPods-SumoObject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,9 @@
 		2C8358B11FC8A3240042D43C /* YBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPrefixHeader.pch; sourceTree = "<group>"; };
 		2C8358B21FC8A3420042D43C /* YBHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBHeader.h; sourceTree = "<group>"; };
 		2C8358B51FC8BABD0042D43C /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		51597D967CDEA9A78FA76B7C /* Pods-SumoObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SumoObject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SumoObject/Pods-SumoObject.release.xcconfig"; sourceTree = "<group>"; };
+		D9B9B8611415E470E50A9F25 /* libPods-SumoObject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SumoObject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24DAEE1F26CE7D51D71854F /* Pods-SumoObject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SumoObject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SumoObject/Pods-SumoObject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F7E839309018185D43EB99 /* libPods-SumoObject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08598723376587D61138966A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B9B8611415E470E50A9F25 /* libPods-SumoObject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2C83588D1FC8A0170042D43C = {
 			isa = PBXGroup;
 			children = (
 				2C8358981FC8A0170042D43C /* SumoObject */,
 				2C8358971FC8A0170042D43C /* Products */,
+				BE7162C20AF1D400E3501F7F /* Pods */,
+				08598723376587D61138966A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +109,15 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		BE7162C20AF1D400E3501F7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E24DAEE1F26CE7D51D71854F /* Pods-SumoObject.debug.xcconfig */,
+				51597D967CDEA9A78FA76B7C /* Pods-SumoObject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C8358AC1FC8A0170042D43C /* Build configuration list for PBXNativeTarget "SumoObject" */;
 			buildPhases = (
+				FE41771D8C4F23085A59AA96 /* [CP] Check Pods Manifest.lock */,
 				2C8358921FC8A0170042D43C /* Sources */,
 				2C8358931FC8A0170042D43C /* Frameworks */,
 				2C8358941FC8A0170042D43C /* Resources */,
+				226CF0983FC848FA0DF2FE17 /* [CP] Embed Pods Frameworks */,
+				78F6269BE214281D71B94DB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +187,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		226CF0983FC848FA0DF2FE17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SumoObject/Pods-SumoObject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78F6269BE214281D71B94DB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SumoObject/Pods-SumoObject-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SumoObject/Pods-SumoObject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE41771D8C4F23085A59AA96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SumoObject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C8358921FC8A0170042D43C /* Sources */ = {
@@ -304,6 +385,7 @@
 		};
 		2C8358AD1FC8A0170042D43C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24DAEE1F26CE7D51D71854F /* Pods-SumoObject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,6 +401,7 @@
 		};
 		2C8358AE1FC8A0170042D43C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51597D967CDEA9A78FA76B7C /* Pods-SumoObject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
