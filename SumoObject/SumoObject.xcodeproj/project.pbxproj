@@ -14,6 +14,12 @@
 		2C8358A61FC8A0170042D43C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8358A41FC8A0170042D43C /* LaunchScreen.storyboard */; };
 		2C8358A91FC8A0170042D43C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358A81FC8A0170042D43C /* main.m */; };
 		2C8358B61FC8BABD0042D43C /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 2C8358B51FC8BABD0042D43C /* Readme */; };
+		2C8358BE1FC9AD6D0042D43C /* YBTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358BD1FC9AD6D0042D43C /* YBTableController.m */; };
+		2C8358C11FC9ADEE0042D43C /* YBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358C01FC9ADEE0042D43C /* YBFirstViewController.m */; };
+		2C8358C91FC9AF0E0042D43C /* YPH_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358C81FC9AF0D0042D43C /* YPH_NavigationController.m */; };
+		2C8358CC1FC9AFB50042D43C /* YBFatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358CB1FC9AFB50042D43C /* YBFatherViewController.m */; };
+		2C8358CF1FC9B1880042D43C /* YBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358CE1FC9B1880042D43C /* YBSecondViewController.m */; };
+		2C8358D31FCAF7E50042D43C /* YBToolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8358D21FCAF7E50042D43C /* YBToolModel.m */; };
 		F2F7E839309018185D43EB99 /* libPods-SumoObject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B9B8611415E470E50A9F25 /* libPods-SumoObject.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +37,18 @@
 		2C8358B11FC8A3240042D43C /* YBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPrefixHeader.pch; sourceTree = "<group>"; };
 		2C8358B21FC8A3420042D43C /* YBHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBHeader.h; sourceTree = "<group>"; };
 		2C8358B51FC8BABD0042D43C /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		2C8358BC1FC9AD6D0042D43C /* YBTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBTableController.h; sourceTree = "<group>"; };
+		2C8358BD1FC9AD6D0042D43C /* YBTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBTableController.m; sourceTree = "<group>"; };
+		2C8358BF1FC9ADEE0042D43C /* YBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBFirstViewController.h; sourceTree = "<group>"; };
+		2C8358C01FC9ADEE0042D43C /* YBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBFirstViewController.m; sourceTree = "<group>"; };
+		2C8358C71FC9AF0D0042D43C /* YPH_NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPH_NavigationController.h; sourceTree = "<group>"; };
+		2C8358C81FC9AF0D0042D43C /* YPH_NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPH_NavigationController.m; sourceTree = "<group>"; };
+		2C8358CA1FC9AFB40042D43C /* YBFatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBFatherViewController.h; sourceTree = "<group>"; };
+		2C8358CB1FC9AFB50042D43C /* YBFatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBFatherViewController.m; sourceTree = "<group>"; };
+		2C8358CD1FC9B1880042D43C /* YBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBSecondViewController.h; sourceTree = "<group>"; };
+		2C8358CE1FC9B1880042D43C /* YBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBSecondViewController.m; sourceTree = "<group>"; };
+		2C8358D11FCAF7E50042D43C /* YBToolModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBToolModel.h; sourceTree = "<group>"; };
+		2C8358D21FCAF7E50042D43C /* YBToolModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBToolModel.m; sourceTree = "<group>"; };
 		51597D967CDEA9A78FA76B7C /* Pods-SumoObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SumoObject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SumoObject/Pods-SumoObject.release.xcconfig"; sourceTree = "<group>"; };
 		D9B9B8611415E470E50A9F25 /* libPods-SumoObject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SumoObject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24DAEE1F26CE7D51D71854F /* Pods-SumoObject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SumoObject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SumoObject/Pods-SumoObject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +95,8 @@
 		2C8358981FC8A0170042D43C /* SumoObject */ = {
 			isa = PBXGroup;
 			children = (
+				2C8358D01FCAF7790042D43C /* Model */,
+				2C8358B71FC9ABA90042D43C /* ViewControllers */,
 				2C8358B01FC8A2F10042D43C /* Header */,
 				2C8358AF1FC8A2130042D43C /* Other */,
 			);
@@ -107,6 +127,56 @@
 				2C8358B21FC8A3420042D43C /* YBHeader.h */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		2C8358B71FC9ABA90042D43C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C8358C31FC9AE170042D43C /* Two */,
+				2C8358C21FC9AE060042D43C /* One */,
+				2C8358B81FC9ABD40042D43C /* 父类 */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2C8358B81FC9ABD40042D43C /* 父类 */ = {
+			isa = PBXGroup;
+			children = (
+				2C8358BC1FC9AD6D0042D43C /* YBTableController.h */,
+				2C8358BD1FC9AD6D0042D43C /* YBTableController.m */,
+				2C8358C71FC9AF0D0042D43C /* YPH_NavigationController.h */,
+				2C8358C81FC9AF0D0042D43C /* YPH_NavigationController.m */,
+				2C8358CA1FC9AFB40042D43C /* YBFatherViewController.h */,
+				2C8358CB1FC9AFB50042D43C /* YBFatherViewController.m */,
+			);
+			path = "父类";
+			sourceTree = "<group>";
+		};
+		2C8358C21FC9AE060042D43C /* One */ = {
+			isa = PBXGroup;
+			children = (
+				2C8358BF1FC9ADEE0042D43C /* YBFirstViewController.h */,
+				2C8358C01FC9ADEE0042D43C /* YBFirstViewController.m */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		2C8358C31FC9AE170042D43C /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				2C8358CD1FC9B1880042D43C /* YBSecondViewController.h */,
+				2C8358CE1FC9B1880042D43C /* YBSecondViewController.m */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		2C8358D01FCAF7790042D43C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C8358D11FCAF7E50042D43C /* YBToolModel.h */,
+				2C8358D21FCAF7E50042D43C /* YBToolModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BE7162C20AF1D400E3501F7F /* Pods */ = {
@@ -247,9 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8358C91FC9AF0E0042D43C /* YPH_NavigationController.m in Sources */,
+				2C8358CF1FC9B1880042D43C /* YBSecondViewController.m in Sources */,
 				2C83589E1FC8A0170042D43C /* ViewController.m in Sources */,
+				2C8358D31FCAF7E50042D43C /* YBToolModel.m in Sources */,
+				2C8358BE1FC9AD6D0042D43C /* YBTableController.m in Sources */,
 				2C8358A91FC8A0170042D43C /* main.m in Sources */,
+				2C8358C11FC9ADEE0042D43C /* YBFirstViewController.m in Sources */,
 				2C83589B1FC8A0170042D43C /* AppDelegate.m in Sources */,
+				2C8358CC1FC9AFB50042D43C /* YBFatherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +468,7 @@
 				DEVELOPMENT_TEAM = A747CBK4U3;
 				GCC_PREFIX_HEADER = "${SRCROOT}/SumoObject/Header/YBPrefixHeader.pch";
 				INFOPLIST_FILE = SumoObject/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sumo.SumoObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +485,7 @@
 				DEVELOPMENT_TEAM = A747CBK4U3;
 				GCC_PREFIX_HEADER = "${SRCROOT}/SumoObject/Header/YBPrefixHeader.pch";
 				INFOPLIST_FILE = SumoObject/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sumo.SumoObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";

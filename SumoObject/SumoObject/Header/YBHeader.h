@@ -19,15 +19,16 @@
 //屏幕尺寸
 #define KUI_YB_ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define KUI_YB_ScreenHeight [UIScreen mainScreen].bounds.size.height
-#define kWidth_YB_Rate KUIScreenWidth/375
-#define kHeight_YB_Rate KUIScreenHeight/667
+#define kWidth_YB_Rate KUI_YB_ScreenWidth/375
+#define kHeight_YB_Rate KUI_YB_ScreenHeight/667
 
 
-#define Font_YB_Size(size) [UIFont systemFontOfSize:size*kWidthRate];
+#define Font_YB_Size(size) [UIFont systemFontOfSize:size*kWidth_YB_Rate];
 
 #define DEVICE_IS_IPHONE_x ([UIScreen mainScreen].bounds.size.height == 812)
 #define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
-#define KStateNavBar_YB_height88 DEVICE_IS_IPHONE_x ? 88.f : 64.f
-#define KNavBar_YB_height24 DEVICE_IS_IPHONE_x ? 24.f : 0.f
+#define KStateNavBar_YB_height88 DEVICE_IS_IPHONE_x ? 44.f : 64.f
+#define KNavBar_YB_height34 DEVICE_IS_IPHONE_x ? 34.f : 0.f
+
 
 #endif /* YBHeader_h */

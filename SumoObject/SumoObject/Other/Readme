@@ -2,3 +2,12 @@
 git 无法提交时输入:
 xcrun git config --global user.email 476018863@qq.com
 xcrun git config --global user.name yanbinisgoodman
+
+给工程添加pods
+安装好pod的前提下
+1.cd到 xcodeproj 的目录下
+2.pod init      //创建
+3.pod install --no-repo-update //更新
+
+
+
