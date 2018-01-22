@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YBFirstViewController : YBFatherViewController
+@interface YBFirstViewController : YBFatherTabViewController
 
+@property(nonatomic,assign)NSInteger count;
 @end

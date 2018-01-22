@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '88FD6A2EEFB6B518FCCB77D4A6592C3D'
+               BlueprintIdentifier = 'BE5ED0BB1ED64A58CE919911A247AD0A'
                BlueprintName = 'Pods-SumoObject'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-SumoObject.a'>

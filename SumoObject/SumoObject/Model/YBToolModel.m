@@ -158,4 +158,41 @@
     return confromTimespStr;
 }
 
+
+
++(UIImage *)fastGetImageWithImageNamed:(NSString *)imageName withCache:(BOOL) cached{
+    //    NSCache * cache = [[NSCache alloc]init];
+    //    if ([cache objectForKey:imageName]) {
+    //        UIImage * image = [cache objectForKey:imageName];
+    //        return image;
+    //    }
+    
+    NSString * imageExtions = @"png";
+    NSArray * array = [imageName componentsSeparatedByString:@"."];
+    NSString * imageNameStr = array.firstObject;
+    if (array.count == 2) {
+        imageExtions = array.lastObject;
+    }
+    
+    NSString * path = [[NSBundle mainBundle] pathForResource:imageNameStr ofType:imageExtions];
+    
+    CFStringRef stringRef = (__bridge CFStringRef)path;
+    
+    CFURLRef urlRef = CFURLCreateWithFileSystemPath(NULL, stringRef, kCFURLPOSIXPathStyle, NO);
+    
+    CGDataProviderRef dataRef = CGDataProviderCreateWithURL(urlRef);
+    
+    CGImageRef imageRef = CGImageCreateWithJPEGDataProvider(dataRef, NULL, true, kCGRenderingIntentDefault);
+    
+    UIImage * image = [UIImage imageWithCGImage:imageRef];
+    
+    //    if (cached) {
+    ////        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    //        [cache setObject:image forKey:imageName];
+    ////        });
+    //    }
+    
+    return image;
+}
+
 @end

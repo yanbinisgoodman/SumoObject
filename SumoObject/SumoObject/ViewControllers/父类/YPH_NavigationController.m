@@ -16,10 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.navigationBar.backgroundColor = [UIColor whiteColor];
-    self.view.backgroundColor = [UIColor whiteColor];
-
+    self.navigationBar.barStyle = UIBarStyleBlackTranslucent;
     UIButton *setBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     setBtn.frame = CGRectMake(0, 0, 10, 19);
     [setBtn setBackgroundImage:[UIImage imageNamed:@"fanhuijian"] forState:UIControlStateNormal];

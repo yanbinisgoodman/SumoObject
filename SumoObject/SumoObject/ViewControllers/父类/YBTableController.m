@@ -50,7 +50,6 @@
     childVC.tabBarItem.image = [[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     childVC.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     YPH_NavigationController *nav = [[YPH_NavigationController alloc] initWithRootViewController:childVC];
-    
     [self addChildViewController:nav];
 }
 

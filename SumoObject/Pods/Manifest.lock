@@ -14,6 +14,8 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - JGProgressHUD (2.0)
+  - LCLoadingHUD (1.0.6)
   - Masonry (1.0.2)
   - MJRefresh (3.1.15)
   - YYKit (1.0.9):
@@ -22,16 +24,20 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - JGProgressHUD
+  - LCLoadingHUD
   - Masonry (~> 1.0.2)
   - MJRefresh (~> 3.1.12)
   - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  JGProgressHUD: c402c0f41fc291ca7e33bba2f999118d9682dd9c
+  LCLoadingHUD: 8b20d4c10d47c3d4a64978cb966532788c183588
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 14c96e739d5b175f51a642d1f1dda4f3d0befb42
+PODFILE CHECKSUM: c840cd566ce7754cb6116d78e7e8fdb9fdb6d504
 
 COCOAPODS: 1.4.0.beta.2

@@ -62,6 +62,6 @@
  */
 +(NSString *_Nullable)timestampSwitchTime:(NSInteger)timestamp andFormatter:(NSString *_Nullable)format;
 
-
++(UIImage *)fastGetImageWithImageNamed:(NSString *)imageName withCache:(BOOL) cached;
 
 @end

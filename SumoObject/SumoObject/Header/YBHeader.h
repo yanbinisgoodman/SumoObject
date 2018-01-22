@@ -30,5 +30,8 @@
 #define KStateNavBar_YB_height88 DEVICE_IS_IPHONE_x ? 44.f : 64.f
 #define KNavBar_YB_height34 DEVICE_IS_IPHONE_x ? 34.f : 0.f
 
+#define KWS(weakSelf) __weak typeof (&*self) weakSelf=self;
 
+#define String(string) [NSString stringWithFormat:@"%@",string];
+#define NSlog(string) NSLog(@"%@",string)
 #endif /* YBHeader_h */
