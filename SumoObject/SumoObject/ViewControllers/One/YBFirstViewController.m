@@ -24,7 +24,10 @@
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [LCCoolHUD showSuccessOblong:@"提示成功" inView:self.view zoom:YES shadow:NO];
+    
+   
+    
+    
     if ([self.dataSource[indexPath.row] isEqualToString:@"视频"]) {
         VideoPlayerViewController *video = [VideoPlayerViewController new];
         video.type                       = PlayerTypeOfNoNavigationBar;
@@ -32,9 +35,10 @@
     }
     
     if ([self.dataSource[indexPath.row] isEqualToString:@"控件"]) {
-        CoolHudViewController * hud = [[CoolHudViewController alloc]init];
-        [self.navigationController pushViewController:hud animated:YES];
+       [LCCoolHUD showSuccessOblong:@"提示成功" inView:self.view zoom:YES shadow:NO];
     }
+    
+    
 
 }
 
